@@ -54,7 +54,6 @@
                     </execution>
                 </executions>
             </plugin>
-
             <!-- fat-jar -->
             <!-- https://books.sonatype.com/mvnex-book/reference/customizing-sect-custom-packaged.html -->
             <!--
@@ -82,7 +81,8 @@
             </plugin>
             
         </plugins>
-    </build>
+    </build> -->
+
     <distributionManagement>
         <repository>
         <id>my-nexus-maven-repo</id>
@@ -93,5 +93,5 @@
         <id>my-nexus-maven-repo</id>
         <url>http://10.23.11.208:8081/repository/my-maven-repo</url>
         </snapshotRepository>
-    </distributionManagement> -->
+    </distributionManagement>
 </project>
