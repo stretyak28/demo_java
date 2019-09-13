@@ -93,5 +93,5 @@
         <id>my-nexus-maven-repo</id>
         <url>http://10.23.11.208:8081/repository/my-maven-repo</url>
         </snapshotRepository>
-    </distributionManagement>
-</project> -->
+    </distributionManagement> -->
+</project>
